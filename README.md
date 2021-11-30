@@ -25,17 +25,17 @@ public: // metodo para acesso fora da classe
 
 
 // Entradas
-int vetores::vet(int vet[5]){//ação do metodo //parametro
-for (i=0;i<5;i++){ //definindo tamanho do array
+int vetores::vet(int vet[5]){//ação do metodo //parametro;
+for (i=0;i<5;i++){ //definindo tamanho do array;
     cout << "Digite o " << i+1 << " valor"<< endl; 
-    cin >> vet[i]; //guardando valores em suas posições.
+    cin >> vet[i]; //guardando valores em suas posições;
 
 } 
 // Saidas
-for (i=0;i<5;i++){ //  posições 
-    for (j=i;j<5;j++){ // comparando posições  de i com j
-       if(vet[i] == vet[j]){ // comparando valores de i com j
-            if(i != j){ // se i for diferente de j ele executara a seguinte linha
+for (i=0;i<5;i++){ //  posições ;
+    for (j=i;j<5;j++){ // comparando posições  de i com j;
+       if(vet[i] == vet[j]){ // comparando valores de i com j;
+            if(i != j){ // se i for diferente de j ele executara a seguinte linha;
     cout << "O numero repetido " << vet[i] <<  " na posicao " << i+1 << " e " << j+1 << endl;
         break;
     }
