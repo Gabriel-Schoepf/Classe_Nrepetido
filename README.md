@@ -27,7 +27,7 @@ public: // metodo para acesso fora da classe
 // Entradas
 int vetores::vet(int vet[5]){//ação do metodo //parametro
 for (i=0;i<5;i++){ //definindo tamanho do array
-    cout << "Digite o " << i+1 << " valor"<< endl;
+    cout << "Digite o " << i+1 << " valor"<< endl; 
     cin >> vet[i]; //guardando valores em suas posições.
 
 } 
