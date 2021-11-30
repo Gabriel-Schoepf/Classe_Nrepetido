@@ -34,7 +34,7 @@ for (i=0;i<5;i++){ //definindo tamanho do array
 // Saidas
 for (i=0;i<5;i++){ //  posições 
     for (j=i;j<5;j++){ // comparando posições  de i com j
-            if(vet[i] == vet[j]){ // comparando valores de i com j
+       if(vet[i] == vet[j]){ // comparando valores de i com j
             if(i != j){ // se i for diferente de j ele executara a seguinte linha
     cout << "O numero repetido " << vet[i] <<  " na posicao " << i+1 << " e " << j+1 << endl;
         break;
